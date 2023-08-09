@@ -1,0 +1,173 @@
+body{
+    background-image: url("IMAGENES/ondas-negra.png"); 
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #22193F;
+    text-align: center;
+    margin: 0%;
+    display:inline-flexbox;
+    justify-content: center;
+    align-items: center;
+
+}
+
+*{
+    align-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 5px;
+    top: 100%;
+
+}
+
+.formulario{
+    font-family: 'Nunito Regular';
+    align-items: center;
+    background: #fff;
+    margin-top: 230px;
+    padding: 3px;
+    width:100%;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Nunito Black';
+    color: #22193F;
+    font-size: 28px;
+    width: 100%;
+}
+.login{
+    top: 50%;
+    left: 40%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+}
+
+input[type="text"]
+     [type="password"]{
+        font-size: 16px;
+        width: 50%;
+        padding: 10px;
+        border: none;
+        font-family: 'Nunito Regular';
+     }
+     
+.input-contenedor{
+    margin-bottom: 10px;
+    font-family: 'Nunito Regular';
+    font-size: 16px;
+
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color:#6A2A83;
+}
+
+.button{
+    font-family: 'Nunito Bold';
+    border: none;
+    width: 15%;
+    color: white;
+    font-size: 16px;
+    background:#E21982;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+
+.button:hover{
+    background:cyan;
+    font-size: 16px;
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    font-family: 'Nunito Bold';
+    text-decoration: none;
+    color: #22193F;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.link:hover{
+    color:#E21982;
+    font-family: 'nunito bold';
+    font-size: 16px;
+}
+
+@media(min-widht:320px)
+{
+    .formulario{
+        margin:auto;
+        width: 400px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+
+    .img{
+        margin:0 auto;
+        width: 50%;
+        margin-top: 150px
+    }
+    
+}
+
+button{
+    font-family: 'Nunito Bold';
+    font-size: 16px;
+    border-radius: 15%;
+}
+
+img{
+    
+    size: 6px;
+    position:absolute;
+    right: 40%;
+    top: 60%;
+    left: 25%;
+    width: 232px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    background: #22193F;
+    box-sizing:border-box;
+    box-shadow: #22193F;
+    border-radius: 5px;
+    
+}
+
+nav {
+    background-color: darkslateblue;
+    padding: 0 50px;
+  }
+  
+  ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    font-size: 200%;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+
